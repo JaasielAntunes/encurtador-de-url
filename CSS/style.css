@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body, main {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1e272e;
+  width: 100vw;
+  height: 100vh;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  height: 300px;
+  margin-top: -100px;
+}
+
+.title {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 35px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.box-input {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.input-url {
+  padding: 12px 20px;
+  text-align: center;
+  outline: transparent;
+  width: 40%;
+  border-radius: 30px;
+  font-size: 20px;
+  color: #1e272e;
+}
+
+.btn {
+  cursor: pointer;
+  font-family: 'Balsamiq Sans', cursive;
+  padding: 15px 20px;
+  width: 170px;
+  margin-left: 10px;
+  border-radius: 50px;
+  background-color: #63c0c0;
+  font-size: 20px;
+  color: #1e272e;
+}
+
+.btn:hover {
+  transition: 0.5s;
+  background-color: #ffd32a;
+}
